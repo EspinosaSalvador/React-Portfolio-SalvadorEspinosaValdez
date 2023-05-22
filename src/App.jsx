@@ -3,11 +3,20 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import AboutMe from "./components/AboutMe"
+import Footer from "./components/Footer"
+import Navbar from "./components/Nabvar"
+import ThreeColumns from "./components/threeColumns"
+
 function App() {
 
   return (
-   <div className="w-screen h-screen bg-red-300">
-    
+   <div>
+   <Navbar/>
+   <AboutMe/>
+   <ThreeColumns/>
+   <Footer/>
+
    </div>
   )
 }
