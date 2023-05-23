@@ -1,6 +1,7 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+
+import { Disclosure,} from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import LogoWolf from "../assets/img/TheRealWolf.png"
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -35,12 +36,12 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
-                    src="../assets/img/TheRealWolf.png"
+                    src= {LogoWolf}
                     alt="Wolf Logo"
                   />
                   <img
                     className="hidden h-8 w-auto lg:block"
-                    src="../assets/img/TheRealWolf.png"
+                    src={LogoWolf}
                     alt="Wolf Logo"
                   />
                 </div>
@@ -72,13 +73,13 @@ export default function Navbar() {
                 </button>
 
                 {/* Profile dropdown */}
-                <Menu as="div" className="relative ml-3">
+                {/* <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src={LogoWolf}
                         alt=""
                       />
                     </Menu.Button>
@@ -125,7 +126,7 @@ export default function Navbar() {
                       </Menu.Item>
                     </Menu.Items>
                   </Transition>
-                </Menu>
+                </Menu> */}
               </div>
             </div>
           </div>

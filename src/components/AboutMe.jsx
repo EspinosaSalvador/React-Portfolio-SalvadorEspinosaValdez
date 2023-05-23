@@ -1,10 +1,54 @@
+import Salvador from "../assets/img/Salvador.jpg"
+
 const people = [
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    name: 'Salvador Espinosa Valdez',
+    role: 'Full Stack Web Developer',
+    img: Salvador,
+    bio: <ul>
+  <li>
+  HTML5
+  </li>
+  <li>
+  CSS3
+  </li>
+  <li>
+  JavaScript
+  </li>
+  <li>
+  jQuery
+  </li>
+  <li>
+  Bootstrap
+  </li>
+  <li>
+  Express.js
+  </li>
+  <li>
+  React.js
+  </li>
+  <li>
+  Database Theory
+  </li>
+  <li>
+  MongoDB
+  </li>
+  <li>
+  MySQL
+  </li>
+  <li>
+  Heroku
+  </li>
+  <li>
+  Java
+  </li>
+  <li>
+  MERN Stack
+  </li>
+  <li>
+  Git
+  </li>
+</ul>,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
@@ -13,25 +57,25 @@ const people = [
 
 export default function AboutMe() {
   return (
-    <div className="bg-white py-24 md:py-32">
+    <div className="slate-color py-30 md:py-40">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
         <div className="max-w-2xl xl:col-span-2">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hi, I am Salvador Espinosa Valdez</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Eligible for work in the U.S.A. and Canada under the TN Visa (no sponsorship needed, due to NAFTA)
+              Eligible for work in the U.S.A. and Canada under the TN Visa (no sponsorship needed, due to NAFTA) <br />
 
-I am Salvador Espinosa Valdez, a passionate Full Stack Web Developer experienced in a wide range of front-end and back-end technologies. 
+I am a passionate Full Stack Web Developer , experienced in a wide range of front-end and back-end technologies. <br /><br />
 
-With expertise in HTML5; CSS3; JavaScript; jQuery; Bootstrap; Express.js; React.js; Database Theory; MongoDB; MySQL; Heroku; Java; MERN Stack; and Git, I have successfully created efficient and scalable web applications. 
+ I have successfully created efficient and scalable web applications. 
 
-I have a strong proficiency in project creation and version control, evident through my 32 repositories on GitHub. I am dedicated to continuous learning and always strive to find the most optimal solutions for my tasks.
+I have a strong proficiency in project creation and version control. I am dedicated to continuous learning and always strive to find the most optimal solutions for my tasks.
           </p>
         </div>
         <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {people.map((person) => (
             <li key={person.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
-              <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
-              <div className="max-w-xl flex-auto">
+              <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.img} alt="" />
+              <div className="max-w-xl auto">
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
                 <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
