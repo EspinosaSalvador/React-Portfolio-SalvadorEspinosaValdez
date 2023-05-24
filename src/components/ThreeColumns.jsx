@@ -50,12 +50,12 @@ const posts = [
   },
   {
     id: 4,
-    title: 'Boost your conversion rate',
-    href: 'https://github.com/EspinosaSalvador/Note-taker-Salvador',
+    title: 'Social Network API',
+    href: 'https://github.com/EspinosaSalvador/Social-Network-API-by-Salvador',
     description:
       'I developed a project to address the requirement of creating, saving, deleting, and editing notes with titles and text.  To achieve this, I utilized Node.js, Express, and the fs module, showcasing my expertise in back-end development. Additionally, I successfully deployed the project on Heroku.  demonstrating my ability to integrate and synchronize the database with a cloud platform for seamless deployment. By showcasing my proficiency in utilizing Node.js, Express, fs, and Heroku in this project, I have proven my capability to build robust and deployable applications while highlighting my skills in working with databases and cloud platforms.',
     imageUrl:
-      'https://github.com/EspinosaSalvador/Note-taker-Salvador/blob/main/public/assets/img/App-running-in-heroku.png?raw=true',
+      'https://res.cloudinary.com/hevo/image/upload/f_auto,q_auto/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif',
     date: 'Mar 16, 2023',
     datetime: '2023-03-16',
     author: {
@@ -66,12 +66,12 @@ const posts = [
   },
   {
     id: 5,
-    title: 'Boost your conversion rate',
-    href: 'https://github.com/EspinosaSalvador/Note-taker-Salvador',
+    title: 'Forbidden Bookshelf',
+    href: 'https://github.com/EspinosaSalvador/Forbidden-Bookshelf',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'created a proyect with 3 other teammates where our goal was to make a beautifull presentation where the books are on a shelf',
     imageUrl:
-      'https://github.com/EspinosaSalvador/Note-taker-Salvador/blob/main/public/assets/img/App-running-in-heroku.png?raw=true',
+      'https://github.com/EspinosaSalvador/Forbidden-Bookshelf/blob/main/assets/images/search-results.jpeg?raw=true',
     date: 'Mar 16, 2023',
     datetime: '2023-03-16',
     author: {
@@ -82,12 +82,12 @@ const posts = [
   },
   {
     id: 6,
-    title: 'Boost your conversion rate',
-    href: 'https://github.com/EspinosaSalvador/Note-taker-Salvador',
+    title: 'Password Generator',
+    href: 'https://github.com/EspinosaSalvador/Password-Generator--Salvador-Espinosa-Valdez',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'good old password Generator',
     imageUrl:
-      'https://github.com/EspinosaSalvador/Note-taker-Salvador/blob/main/public/assets/img/App-running-in-heroku.png?raw=true',
+      'https://github.com/EspinosaSalvador/Password-Generator--Salvador-Espinosa-Valdez/blob/main/Assets/Img/Webpage%20working.png?raw=true',
     date: 'Mar 16, 2023',
     datetime: '2023-03-16',
     author: {

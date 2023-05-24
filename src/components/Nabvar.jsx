@@ -1,13 +1,13 @@
 
 import { Disclosure,} from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
 import LogoWolf from "../assets/img/TheRealWolf.png"
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'About Me', href: '#', current: false },
-  { name: 'Curriculum', href: '#', current: false },
-  { name: 'Blog', href: '#', current: false },
+  { name: 'About Me', href: './AboutMe.jsx', current: true },
+  { name: 'Portfolio', href: './ThreeColumns.jsx', current: true },
+  { name: 'Contact', href: './Contact.jsx', current: true },
+  // { name: 'Blog', href: '', current: false },
 ]
 
 function classNames(...classes) {
@@ -32,7 +32,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch ">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
@@ -64,13 +64,13 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
+                {/* <button
                   type="button"
                   className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                </button> */}
 
                 {/* Profile dropdown */}
                 {/* <Menu as="div" className="relative ml-3">
@@ -127,6 +127,7 @@ export default function Navbar() {
                     </Menu.Items>
                   </Transition>
                 </Menu> */}
+                
               </div>
             </div>
           </div>

@@ -49,8 +49,8 @@ const people = [
   Git
   </li>
 </ul>,
-    twitterUrl: '#',
-    linkedinUrl: '#',
+    twitterUrl: 'https://twitter.com/EspinosaChava',
+    linkedinUrl: 'https://www.linkedin.com/in/sevprofessional/',
   },
   // More people...
 ]
