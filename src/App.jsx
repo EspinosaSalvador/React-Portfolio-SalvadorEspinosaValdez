@@ -3,12 +3,12 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
-import AboutMe from "./components/AboutMe"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Navbar from "./components/Nabvar"
-import Curriculum from "./components/Curriculum"
-import ThreeColumns from "./components/Threecolumns"
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Navbar from "./components/Nabvar";
+import Curriculum from "./components/Curriculum";
+import ThreeColumns from "./components/ThreeColumns";
 
 function App() {
 
